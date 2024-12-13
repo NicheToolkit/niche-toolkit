@@ -1,39 +1,13 @@
-
-## rest-toolkit-core
-
-* Maven (`pom.xml`)
-
-```xml
-
-<dependency>
-    <groupId>io.github.nichetoolkit</groupId>
-    <artifactId>rest-toolkit-core</artifactId>
-    <version>1.1.1</version>
-</dependency>
-```
-
-## rest-toolkit-starter
+# niche-toolkit-starter-parent
 
 * Maven (`pom.xml`)
 
 ```xml
 
-<dependency>
+<parent>
     <groupId>io.github.nichetoolkit</groupId>
-    <artifactId>rest-toolkit-starter</artifactId>
-    <version>1.1.1</version>
-</dependency>
-```
-
-## rest-toolkit-utils
-
-* Maven (`pom.xml`)
-
-```xml
-
-<dependency>
-    <groupId>io.github.nichetoolkit</groupId>
-    <artifactId>rest-toolkit-utils</artifactId>
-    <version>1.1.1</version>
-</dependency>
+    <artifactId>niche-toolkit-starter-parent</artifactId>
+    <version>1.1.1-SNAPSHOT</version>
+    <relativePath/> <!-- lookup parent from repository -->
+</parent>
 ```

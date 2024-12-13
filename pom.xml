@@ -4,26 +4,22 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.nichetoolkit</groupId>
-    <artifactId>rest-toolkit-parent</artifactId>
-    <version>1.1.1-</version>
+    <artifactId>niche-toolkit-dependencies</artifactId>
+    <version>1.1.1-SNAPSHOT</version>
 
     <modules>
-        <module>rest-toolkit-example</module>
-        <module>rest-toolkit-bom</module>
-        <module>rest-toolkit-core</module>
-        <module>rest-toolkit-utils</module>
-        <module>rest-toolkit-starter</module>
+        <module>niche-toolkit-starter-parent</module>
     </modules>
 
-    <name>rest-toolkit-parent</name>
+    <name>niche-toolkit-dependencies</name>
     <packaging>pom</packaging>
-    <description>rest toolkit parent for Spring Boot</description>
-    <url>https://github.com/NicheToolkit/rest-toolkit</url>
+    <description>niche toolkit parent for Spring Boot</description>
+    <url>https://github.com/NicheToolkit/niche-toolkit</url>
 
     <licenses>
         <license>
             <name>The Apache License (Apache-2.0)</name>
-            <url>https://github.com/NicheToolkit/rest-toolkit/blob/master/LICENSE</url>
+            <url>https://github.com/NicheToolkit/niche-toolkit/blob/master/LICENSE</url>
         </license>
     </licenses>
 
@@ -40,9 +36,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:NicheToolkit/rest-toolkit.git</connection>
-        <developerConnection>scm:git:git@github.com:NicheToolkit/rest-toolkit.git</developerConnection>
-        <url>git@github.com:NicheToolkit/rest-toolkit.git</url>
+        <connection>scm:git:git@github.com:NicheToolkit/niche-toolkit.git</connection>
+        <developerConnection>scm:git:git@github.com:NicheToolkit/niche-toolkit.git</developerConnection>
+        <url>git@github.com:NicheToolkit/niche-toolkit.git</url>
     </scm>
 
     <parent>
@@ -119,7 +115,6 @@
 
         <spring-boot.version>2.7.18</spring-boot.version>
 
-
         <spring-boot-maven-plugin.version>2.7.18</spring-boot-maven-plugin.version>
         <maven-gpg-plugin.version>3.2.5</maven-gpg-plugin.version>
         <nexus-staging-maven-plugin.version>1.7.0</nexus-staging-maven-plugin.version>
@@ -164,69 +159,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <dependency>
-                <groupId>io.github.nichetoolkit</groupId>
-                <artifactId>rest-toolkit-bom</artifactId>
-                <version>${rest-toolkit.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.github.nichetoolkit</groupId>
-                <artifactId>rest-toolkit-core</artifactId>
-                <version>${rest-toolkit.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.github.nichetoolkit</groupId>
-                <artifactId>rest-toolkit-utils</artifactId>
-                <version>${rest-toolkit.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.github.nichetoolkit</groupId>
-                <artifactId>rest-toolkit-starter</artifactId>
-                <version>${rest-toolkit.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.google.guava</groupId>
-                <artifactId>guava</artifactId>
-                <version>${guava.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.bouncycastle</groupId>
-                <artifactId>bcprov-jdk18on</artifactId>
-                <version>${bcprov.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.fusionauth</groupId>
-                <artifactId>fusionauth-jwt</artifactId>
-                <version>${fusionauth-jwt.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>ch.qos.logback</groupId>
-                <artifactId>logback-classic</artifactId>
-                <version>${logback.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-core</artifactId>
-                <version>${tomcat.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.yaml</groupId>
-                <artifactId>snakeyaml</artifactId>
-                <version>${snakeyaml.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.squareup.okio</groupId>
-                <artifactId>okio</artifactId>
-                <version>${squareup.version}</version>
-            </dependency>
-
         </dependencies>
     </dependencyManagement>
 

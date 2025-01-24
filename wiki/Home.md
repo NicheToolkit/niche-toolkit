@@ -1,4 +1,4 @@
-## [Rest-Toolkit](https://github.com/NicheToolkit/niche-toolkit)
+## [Niche-Toolkit](https://github.com/NicheToolkit/niche-toolkit)
 
 [![GitHub License](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/NicheToolkit/niche-toolkit/blob/master/LICENSE)
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.nichetoolkit/niche-toolkit-starter-parent)](https://central.sonatype.com/search?smo=true&q=niche-toolkit-starter-parent&namespace=io.github.nichetoolkit)

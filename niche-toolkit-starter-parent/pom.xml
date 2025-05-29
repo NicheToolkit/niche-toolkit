@@ -5,11 +5,11 @@
     <parent>
         <groupId>io.github.nichetoolkit</groupId>
         <artifactId>niche-toolkit-dependencies</artifactId>
-        <version>1.1.1</version>
+        <version>1.1.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>niche-toolkit-starter-parent</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2-SNAPSHOT</version>
     <name>niche-toolkit-starter-parent</name>
     <packaging>pom</packaging>
     <description>niche toolkit starter parent project for Spring Boot</description>

@@ -172,13 +172,10 @@
             <!-- jts-toolkit  -->
             <dependency>
                 <groupId>io.github.nichetoolkit</groupId>
-                <artifactId>jts-toolkit-core</artifactId>
+                <artifactId>jts-toolkit-bom</artifactId>
                 <version>${jts-toolkit.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.github.nichetoolkit</groupId>
-                <artifactId>jts-toolkit-utils</artifactId>
-                <version>${jts-toolkit.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

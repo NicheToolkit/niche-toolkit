@@ -54,6 +54,8 @@
 
 [Mybatis-Toolkit](https://github.com/NicheToolkit/mybatis-toolkit)
 
+[Ossfile-Toolkit](https://github.com/NicheToolkit/ossfile-toolkit)
+
 [Jts-Toolkit](https://github.com/NicheToolkit/jts-toolkit)
 
 

@@ -124,6 +124,7 @@
         <rest-toolkit.version>1.1.2-SNAPSHOT</rest-toolkit.version>
         <rice-toolkit.version>1.1.2-SNAPSHOT</rice-toolkit.version>
         <mybatis-toolkit.version>1.1.2-SNAPSHOT</mybatis-toolkit.version>
+        <ossfile-toolkit.version>1.1.2-SNAPSHOT</ossfile-toolkit.version>
         <jts-toolkit.version>1.1.2-SNAPSHOT</jts-toolkit.version>
 
         <logback.version>1.2.13</logback.version>
@@ -166,6 +167,14 @@
                 <groupId>io.github.nichetoolkit</groupId>
                 <artifactId>mybatis-toolkit-bom</artifactId>
                 <version>${mybatis-toolkit.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- ossfile-toolkit  -->
+            <dependency>
+                <groupId>io.github.nichetoolkit</groupId>
+                <artifactId>ossfile-toolkit-bom</artifactId>
+                <version>${ossfile-toolkit.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

@@ -5,7 +5,7 @@
 
     <groupId>io.github.nichetoolkit</groupId>
     <artifactId>niche-toolkit-dependencies</artifactId>
-    <version>1.1.2-SNAPSHOT</version>
+    <version>4.1.2-SNAPSHOT</version>
 
     <modules>
         <module>niche-toolkit-starter-parent</module>
@@ -44,7 +44,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.18</version>
+        <version>4.0.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -89,35 +89,27 @@
     </repositories>
 
     <properties>
-        <java.version>1.8</java.version>
-        <jdk.version>1.8</jdk.version>
+        <java.version>17</java.version>
+        <jdk.version>17</jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
 
-        <spring-boot.version>2.7.18</spring-boot.version>
-        <springframework.version>5.3.39</springframework.version>
+        <spring-boot.version>4.0.0</spring-boot.version>
+        <springframework.version>7.0.1</springframework.version>
 
-        <spring-boot-maven-plugin.version>2.7.18</spring-boot-maven-plugin.version>
+        <spring-boot-maven-plugin.version>4.0.0</spring-boot-maven-plugin.version>
         <maven-gpg-plugin.version>3.2.5</maven-gpg-plugin.version>
-        <central-publishing-maven-plugin.version>0.8.0</central-publishing-maven-plugin.version>
-        <maven-release-plugin.version>3.1.1</maven-release-plugin.version>
+        <central-publishing-maven-plugin.version>0.9.0</central-publishing-maven-plugin.version>
+        <maven-release-plugin.version>3.2.0</maven-release-plugin.version>
 
-        <rest-toolkit.version>1.1.2-SNAPSHOT</rest-toolkit.version>
-        <rice-toolkit.version>1.1.2-SNAPSHOT</rice-toolkit.version>
-        <mybatis-toolkit.version>1.1.2-SNAPSHOT</mybatis-toolkit.version>
-        <ossfile-toolkit.version>1.1.2-SNAPSHOT</ossfile-toolkit.version>
-        <jts-toolkit.version>1.1.2-SNAPSHOT</jts-toolkit.version>
-
-        <logback.version>1.2.13</logback.version>
-        <snakeyaml.version>2.0</snakeyaml.version>
-        <tomcat.version>9.0.90</tomcat.version>
-        <squareup.version>3.4.0</squareup.version>
-        <guava.version>33.3.1-jre</guava.version>
-        <bcprov.version>1.78.1</bcprov.version>
-        <fusionauth-jwt.version>5.3.3</fusionauth-jwt.version>
+        <rest-toolkit.version>4.1.2-SNAPSHOT</rest-toolkit.version>
+        <rice-toolkit.version>4.1.2-SNAPSHOT</rice-toolkit.version>
+        <mybatis-toolkit.version>4.1.2-SNAPSHOT</mybatis-toolkit.version>
+        <ossfile-toolkit.version>4.1.2-SNAPSHOT</ossfile-toolkit.version>
+        <jts-toolkit.version>4.1.2-SNAPSHOT</jts-toolkit.version>
 
     </properties>
 
@@ -298,9 +290,9 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <encoding>utf-8</encoding>
+                    <source>17</source>
+                    <target>17</target>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
         </plugins>

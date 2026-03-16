@@ -35,7 +35,7 @@
 <parent>
     <groupId>io.github.nichetoolkit</groupId>
     <artifactId>niche-toolkit-starter-parent</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
     <relativePath/> <!-- lookup parent from repository -->
 </parent>
 ```

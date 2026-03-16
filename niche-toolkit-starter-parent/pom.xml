@@ -5,11 +5,11 @@
     <parent>
         <groupId>io.github.nichetoolkit</groupId>
         <artifactId>niche-toolkit-dependencies</artifactId>
-        <version>1.1.2-SNAPSHOT</version>
+        <version>1.1.2</version>
     </parent>
 
     <artifactId>niche-toolkit-starter-parent</artifactId>
-    <version>1.1.2-SNAPSHOT</version>
+    <version>1.1.2</version>
     <name>niche-toolkit-starter-parent</name>
     <packaging>pom</packaging>
     <description>niche toolkit starter parent project for Spring Boot</description>
@@ -157,7 +157,7 @@
                 <artifactId>central-publishing-maven-plugin</artifactId>
                 <extensions>true</extensions>
                 <configuration>
-                    <centralBaseUrl>https://central.sonatype.com/</centralBaseUrl>
+                    <centralBaseUrl>https://central.sonatype.com</centralBaseUrl>
                     <centralSnapshotsUrl>https://central.sonatype.com/repository/maven-snapshots/</centralSnapshotsUrl>
                     <publishingServerId>sonatype-nexus-release</publishingServerId>
                     <autoPublish>true</autoPublish>
